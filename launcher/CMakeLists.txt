@@ -37,7 +37,7 @@ function(launcher_target NAME DEDICATED)
     endif()
 endfunction()
 
-launcher_target(csgo_f OFF)
+launcher_target(cc OFF)
 
 if (WIN32 OR (IS_32BIT AND NOT APPLE))
     launcher_target(srcds ON)
