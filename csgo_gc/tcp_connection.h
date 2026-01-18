@@ -21,7 +21,7 @@
 
 namespace CCServer {
 constexpr const char *DEFAULT_IP = "79.72.94.86";
-constexpr int DEFAULT_PORT = 21818;
+constexpr int DEFAULT_PORT = 3306;
 } // namespace CCServer
 
 class TCPConnection {
